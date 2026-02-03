@@ -1,0 +1,120 @@
+/* BrainWave AI - Content Styles */
+
+#brainwave-popup {
+  position: absolute;
+  z-index: 2147483647;
+  width: 350px;
+  max-width: 90vw;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #fff;
+  overflow: hidden;
+  animation: brainwave-slide-in 0.2s ease-out;
+}
+
+@keyframes brainwave-slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.brainwave-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.brainwave-logo {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.brainwave-close {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brainwave-close:hover {
+  opacity: 1;
+}
+
+.brainwave-content {
+  padding: 16px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.brainwave-loading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.brainwave-spinner {
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: brainwave-spin 1s linear infinite;
+}
+
+@keyframes brainwave-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.brainwave-result {
+  font-size: 14px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.brainwave-actions {
+  display: flex;
+  gap: 8px;
+  padding: 12px 16px;
+  background: rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.brainwave-actions button {
+  flex: 1;
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.brainwave-actions button:hover {
+  background: rgba(255, 255, 255, 0.3);
+}

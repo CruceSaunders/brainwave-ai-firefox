@@ -1,0 +1,62 @@
+# BrainWave AI - Firefox Browser Extension
+
+Simple AI text tools. Just 4 features. Zero bloat.
+
+![BrainWave AI](https://brainwave-api.vercel.app/og-image.png)
+
+## Features
+
+- **📝 Summarize** - Condense any text into key points
+- **✏️ Rewrite** - Improve clarity and professionalism
+- **💡 Explain** - Simplify complex topics
+- **🌍 Translate** - Convert between languages
+
+## Installation
+
+### Option 1: Direct Download (Recommended)
+1. Download from [brainwave-api.vercel.app](https://brainwave-api.vercel.app/brainwave-firefox.zip)
+2. In Firefox, go to `about:debugging#/runtime/this-firefox`
+3. Click "Load Temporary Add-on..."
+4. Select the downloaded .zip file
+
+### Option 2: Firefox Add-ons Store
+Coming soon!
+
+## Usage
+
+1. Select any text on a webpage
+2. Right-click to open context menu
+3. Choose BrainWave AI → [Action]
+4. View results in popup
+
+## Privacy
+
+- No user data stored
+- No tracking
+- Text processed via API only when you request it
+- [Privacy Policy](https://brainwave-api.vercel.app/api/privacy)
+
+## Tech Stack
+
+- Vanilla JavaScript
+- Claude AI (Anthropic)
+- Manifest V2
+
+## Pricing
+
+- **Free tier**: 5 requests/day
+- **Pro tier**: $9.99/month unlimited
+
+## License
+
+MIT License - see [LICENSE](LICENSE)
+
+## Links
+
+- [Landing Page](https://brainwave-api.vercel.app/)
+- [API Documentation](https://brainwave-api.vercel.app/api/generate)
+- [Chrome Version](https://github.com/igris-ai/brainwave-chrome)
+
+---
+
+Built with ❤️ by [Igris AI](https://brainwave-api.vercel.app/)
