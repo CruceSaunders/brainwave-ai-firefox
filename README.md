@@ -1,5 +1,10 @@
 # BrainWave AI - Firefox Browser Extension
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Firefox Extension](https://img.shields.io/badge/Firefox-Extension-orange.svg)](https://brainwave-api.vercel.app/brainwave-firefox.zip)
+[![Powered by Claude](https://img.shields.io/badge/Powered%20by-Claude%20AI-orange.svg)](https://www.anthropic.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 Simple AI text tools. Just 4 features. Zero bloat.
 
 ![BrainWave AI](https://brainwave-api.vercel.app/og-image.png)
