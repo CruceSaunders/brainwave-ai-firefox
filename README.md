@@ -53,10 +53,6 @@ MIT License - see [LICENSE](LICENSE)
 
 ## Links
 
-- [Landing Page](https://brainwave-api.vercel.app/)
-- [API Documentation](https://brainwave-api.vercel.app/api/generate)
-- [Chrome Version](https://github.com/igris-ai/brainwave-chrome)
-
----
-
-Built with ❤️ by [Igris AI](https://brainwave-api.vercel.app/)
+- **Website**: [brainwave-api.vercel.app](https://brainwave-api.vercel.app/)
+- **Chrome Version**: [brainwave-ai-chrome](https://github.com/CruceSaunders/brainwave-ai-chrome)
+- **VS Code Extension**: [commit-ai-vscode](https://github.com/CruceSaunders/commit-ai-vscode)
